@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Security In Florida</title>
+  <meta name="description" content="Quick link to Security In Florida with a clean, responsive landing page." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="#" aria-label="Home">
+        <span class="brand-mark">🔒</span>
+        <span class="brand-name">Security In Florida</span>
+      </a>
+      <button id="themeToggle" class="toggle" aria-pressed="false" aria-label="Toggle dark mode">Dark mode</button>
+    </div>
+  </header>
+
+  <main class="hero">
+    <div class="container">
+      <h1 class="title">Your quick route to Security In Florida</h1>
+      <p class="subtitle">
+        Visit the official site for services, information, and support. Fast, secure, and reliable.
+      </p>
+
+      <div class="cta-group">
+        <a class="btn primary" href="https://securityinflorida.com" target="_blank" rel="noopener noreferrer">
+          Go to securityinflorida.com
+        </a>
+        <button class="btn outline" id="copyLinkBtn" type="button">Copy link</button>
+      </div>
+
+      <p class="helper" id="copyStatus" role="status" aria-live="polite"></p>
+    </div>
+  </main>
+
+  <section class="features">
+    <div class="container grid">
+      <div class="card">
+        <h2 class="card-title">Fast access</h2>
+        <p class="card-text">One click sends you directly to the official website.</p>
+      </div>
+      <div class="card">
+        <h2 class="card-title">Secure linking</h2>
+        <p class="card-text">External links open in a new tab with <code>rel="noopener"</code>.</p>
+      </div>
+      <div class="card">
+        <h2 class="card-title">Accessible design</h2>
+        <p class="card-text">Clear contrast, focus states, and ARIA for status messages.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footnote">
+        © <span id="year"></span> Quick Link • Built with HTML, CSS, and JS.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
